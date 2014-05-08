@@ -1,0 +1,9 @@
+{
+  "name": "ethereum-rpc-node-client",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "request": "~2.34.0"
+  }
+}

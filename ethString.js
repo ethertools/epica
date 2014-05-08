@@ -1,7 +1,9 @@
-if (typeof(require) !== "undefined")
-	require( ['BigInteger'], function() {} )
-else if (typeof(bigInt) === "undefined")
-	alert("You need to have included BigInteger.js for eth to work.")
+require("./BigInteger");
+
+//ARE YOU SURE?
+
+//extending native objects is rarely a good idea; clients of the lib won't expect this.
+//can we change these to be normal functions/objects of some sort?
 
 String.prototype.pad = function(l, r) {
 	if (r === null) {
