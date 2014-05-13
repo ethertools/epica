@@ -66,4 +66,9 @@
   "params": { "a": "" },
   "order": ["a"],
   "returns" : ""
+},{
+  "method": "lastBlock",
+  "params": null,
+  "order": [],
+  "returns": [""]
 }]
