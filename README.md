@@ -2,11 +2,11 @@
 
 Node library intended to simplify interacting with Ethereum client software via RPC
 
-## Installation
+### Installation
 
 `npm install epica`
 
-## Usage
+### Usage
 
 ```
 vat epica = require("epica")();
