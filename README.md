@@ -1,4 +1,4 @@
-# Ethereum Programming Interface Client Adaptor
+## Ethereum Programming Interface Client Adaptor
 
 Node library intended to simplify interacting with Ethereum client software via RPC
 
