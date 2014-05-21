@@ -1,5 +1,19 @@
-to run:
+# Ethereum Programming Interface Client Adaptor
 
-npm install
+Node library intended to simplify interacting with Ethereum client software via RPC
 
-node test
+## Installation
+
+`npm install epica`
+
+## Usage
+
+```
+vat epica = require("epica")();
+
+epica.ready.then(function(){
+    epica.coinbase(function(coinbase){
+        console.log("Our coinbase: " + coinbase); 
+    });
+});
+```
