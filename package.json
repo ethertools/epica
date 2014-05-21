@@ -1,10 +1,10 @@
 {
   "name": "ethpi",
   "version": "0.0.1",
-  "description": "Ethereum Programming Interface",
+  "description": "Ethereum Programming Interface Client Adaptor",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ethertools/ethpi.git"
+    "url": "git@github.com:ethertools/epica.git"
   },
   "private": false,
   "dependencies": {
