@@ -15,7 +15,8 @@
     "should": "~3.3.1",
     "sinon-chai": "~2.5.0",
     "requesto": "*",
-    "when": "~3.2.1"
+    "when": "~3.2.1",
+    "jsonrpc-tcp": "0.1.0"
   },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha --recursive -R spec"

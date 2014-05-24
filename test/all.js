@@ -26,7 +26,7 @@ describe("Eth", function(){
   });
 
   describe("isListening", function(){
-    it("should report if the client is mining", function(done){
+    it("should report if the client is listening", function(done){
       eth.isListening(function(isListening){
         isListening.should.be.type("boolean");
         done();
@@ -52,7 +52,7 @@ describe("Eth", function(){
       });
     });
     it("returns balance at an address", function(done){
-      eth.balanceAt({a: coinbase }).then(function(balance){
+      eth.balanceAt({a: coinbase }).then(function(balance){ 
         balance.toNumber().should.be.a.Number;
         done();
       });
